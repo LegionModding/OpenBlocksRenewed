@@ -9,7 +9,7 @@ buildscript {
 }
 apply plugin: 'net.minecraftforge.gradle'
 
-version = 'FORGE-0.0.1'
+version = 'FORGE-0.0.2'
 group = 'com.legionmodding.openblocksrenewed'
 archivesBaseName = 'OpenBlocksRenewed'
 
@@ -73,7 +73,7 @@ repositories {
 dependencies {
     minecraft 'net.minecraftforge:forge:1.16.5-36.2.23'
 
-    implementation fg.deobf("com.legionmodding.yalm:yalm-forge:0.0.3")
+    implementation fg.deobf("com.legionmodding.yalm:yalm-forge:0.0.8")
 }
 
 jar {

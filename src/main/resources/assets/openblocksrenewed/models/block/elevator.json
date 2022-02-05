@@ -1,0 +1,6 @@
+{
+  "parent": "yalm:block/cube_all_tinted",
+  "textures": {
+    "all": "openblocksrenewed:block/elevator"
+  }
+}

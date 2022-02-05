@@ -1,5 +1,7 @@
 package com.legionmodding.openblocksrenewed;
 
+import com.legionmodding.openblocksrenewed.handler.registry.BlockRegistry;
+import com.legionmodding.openblocksrenewed.handler.registry.ItemRegistry;
 import com.legionmodding.openblocksrenewed.util.Reference;
 
 import net.minecraftforge.common.MinecraftForge;
@@ -18,6 +20,8 @@ public class OpenBlocksRenewed
 
     public OpenBlocksRenewed()
     {
+        BlockRegistry.registerBlocks();
+        ItemRegistry.registerItems();
 
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::onClientSetup);
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::onCommonSetup);
