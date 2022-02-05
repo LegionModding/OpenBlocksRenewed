@@ -4,10 +4,10 @@ license="All rights reserved"
 [[mods]]
     modId="openblocksrenewed"
     version="${file.jarVersion}"
-    displayName="Better Dungeon Loot"
-    credits="LegionModding"
-    authors="Made with <3 by LegionModding"
-    description='''This is just a mod which allows you to customize dungeon loot!'''
+    displayName="OpenBlocks: Renewed"
+    credits="LegionModding and OpenMods team for the original OpenBlocks mod!"
+    authors="LegionModding"
+    description='''This is an unofficial port of OpenBlocks to 1.16 and beyond with new blocks and features!'''
 [[dependencies.openblocksrenewed]]
     modId="forge"
     mandatory=true
