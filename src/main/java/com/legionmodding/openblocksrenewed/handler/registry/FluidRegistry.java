@@ -19,11 +19,11 @@ import net.minecraftforge.registries.ForgeRegistries;
 
 public class FluidRegistry 
 {
-    public static final ResourceLocation XP_STILL_RL = new ResourceLocation(Reference.MOD_ID, "blocks/xp_still");
+    public static final ResourceLocation XP_STILL_RL = new ResourceLocation(Reference.MOD_ID, "block/xp_still");
     public static final ResourceLocation XP_FLOWING_RL = new ResourceLocation(Reference.MOD_ID,
-            "blocks/xp_flowing");
+            "block/xp_flowing");
     public static final ResourceLocation XP_OVERLAY_RL = new ResourceLocation(Reference.MOD_ID,
-            "blocks/xp_overlay");
+            "block/xp_overlay");
 
     public static final DeferredRegister<Fluid> FLUIDS = DeferredRegister.create(ForgeRegistries.FLUIDS,
             Reference.MOD_ID);

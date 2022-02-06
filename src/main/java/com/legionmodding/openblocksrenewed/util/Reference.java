@@ -1,8 +1,8 @@
 package com.legionmodding.openblocksrenewed.util;
 
 import com.legionmodding.openblocksrenewed.handler.registry.BlockRegistry;
-
 import com.legionmodding.openblocksrenewed.handler.registry.ItemRegistry;
+
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 
@@ -28,5 +28,5 @@ public class Reference
         }
     };
 
-    public static final String VERSION = "0.1.2";
+    public static final String VERSION = "0.1.3";
 }
