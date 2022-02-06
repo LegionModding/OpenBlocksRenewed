@@ -21,6 +21,7 @@ public class OpenBlocksRenewed
     public OpenBlocksRenewed()
     {
         BlockRegistry.registerBlocks();
+        FluidRegistry.registerFluids();
         ItemRegistry.registerItems();
         SoundRegistry.registerSounds();
         TileEntityRegistry.registerTileEntities();
