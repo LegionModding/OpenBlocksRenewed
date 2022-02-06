@@ -1,4 +1,18 @@
 {
   "itemGroup.tab.blocks": "OpenBlocks: Renewed",
+  "block.openblocksrenewed.black_elevator": "Black Elevator",
+  "block.openblocksrenewed.blue_elevator": "Blue Elevator",
+  "block.openblocksrenewed.brown_elevator": "Brown Elevator",
+  "block.openblocksrenewed.cyan_elevator": "Cyan Elevator",
+  "block.openblocksrenewed.gray_elevator": "Gray Elevator",
+  "block.openblocksrenewed.green_elevator": "Green Elevator",
+  "block.openblocksrenewed.light_blue_elevator": "Light Blue Elevator",
+  "block.openblocksrenewed.light_gray_elevator": "Light Gray Elevator",
+  "block.openblocksrenewed.lime_elevator": "Lime Elevator",
+  "block.openblocksrenewed.magenta_elevator": "Magenta Elevator",
+  "block.openblocksrenewed.orange_elevator": "Orange Elevator",
+  "block.openblocksrenewed.pink_elevator": "Pink Elevator",
+  "block.openblocksrenewed.purple_elevator": "Purple Elevator",
+  "block.openblocksrenewed.red_elevator": "Red Elevator",
   "block.openblocksrenewed.white_elevator": "White Elevator"
 }
