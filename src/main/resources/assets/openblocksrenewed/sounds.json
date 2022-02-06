@@ -1,0 +1,7 @@
+{
+  "elevator_teleport": {
+    "category": "block",
+    "sounds": ["openblocksrenewed:elevator_teleport"],
+    "subtitle": "openblocksrenewed.subtitle.teleport"
+  }
+}
