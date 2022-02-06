@@ -1,0 +1,15 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "openblocksrenewed:block/bottler"
+    },
+    "facing=south": {
+      "model": "openblocksrenewed:block/bottler", "y":  180},
+    "facing=west": {
+      "model": "openblocksrenewed:block/bottler", "y":  270
+    },
+    "facing=east": {
+      "model": "openblocksrenewed:block/bottler", "y":  90
+    }
+  }
+}

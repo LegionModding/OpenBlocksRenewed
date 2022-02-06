@@ -1,6 +1,6 @@
 package com.legionmodding.openblocksrenewed.handler.registry;
 
-import com.legionmodding.openblocksrenewed.block.BlockElevator;
+import com.legionmodding.openblocksrenewed.block.*;
 import com.legionmodding.openblocksrenewed.colours.ColorMeta;
 import com.legionmodding.openblocksrenewed.util.Reference;
 
@@ -17,6 +17,7 @@ public class BlockRegistry
 
     public static final RegistryObject<Block> BLACK_ELEVATOR = BLOCKS.register("black_elevator", () -> BlockElevator.create(Material.STONE, ColorMeta.BLACK));
     public static final RegistryObject<Block> BLUE_ELEVATOR = BLOCKS.register("blue_elevator", () -> BlockElevator.create(Material.STONE, ColorMeta.BLUE));
+    public static final RegistryObject<Block> BOTTLER = BLOCKS.register("bottler", BlockBottler::new);
     public static final RegistryObject<Block> BROWN_ELEVATOR = BLOCKS.register("brown_elevator", () -> BlockElevator.create(Material.STONE, ColorMeta.BROWN));
     public static final RegistryObject<Block> CYAN_ELEVATOR = BLOCKS.register("cyan_elevator", () -> BlockElevator.create(Material.STONE, ColorMeta.CYAN));
     public static final RegistryObject<Block> GRAY_ELEVATOR = BLOCKS.register("gray_elevator", () -> BlockElevator.create(Material.STONE, ColorMeta.GRAY));

@@ -1,10 +1,7 @@
 package com.legionmodding.openblocksrenewed;
 
 import com.legionmodding.openblocksrenewed.handler.NetworkHandler;
-import com.legionmodding.openblocksrenewed.handler.registry.BlockRegistry;
-import com.legionmodding.openblocksrenewed.handler.registry.ColorRegistry;
-import com.legionmodding.openblocksrenewed.handler.registry.ItemRegistry;
-import com.legionmodding.openblocksrenewed.handler.registry.SoundRegistry;
+import com.legionmodding.openblocksrenewed.handler.registry.*;
 import com.legionmodding.openblocksrenewed.util.Reference;
 
 import net.minecraftforge.common.MinecraftForge;
@@ -26,6 +23,7 @@ public class OpenBlocksRenewed
         BlockRegistry.registerBlocks();
         ItemRegistry.registerItems();
         SoundRegistry.registerSounds();
+        TileEntityRegistry.registerTileEntities();
 
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::onClientSetup);
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::onCommonSetup);
