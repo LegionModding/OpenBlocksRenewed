@@ -23,6 +23,6 @@ license="All rights reserved"
 [[dependencies.openblocksrenewed]]
     modId="yalm"
     mandatory=true
-    versionRange="[forge-0.0.8,forge-0.1.0)"
+    versionRange="[forge-0.1.0,forge-0.2.0)"
     ordering="NONE"
     side="BOTH"

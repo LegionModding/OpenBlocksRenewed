@@ -9,7 +9,7 @@ buildscript {
 }
 apply plugin: 'net.minecraftforge.gradle'
 
-version = 'FORGE-0.0.9'
+version = 'FORGE-0.1.0'
 group = 'com.legionmodding.openblocksrenewed'
 archivesBaseName = 'OpenBlocksRenewed'
 
@@ -62,18 +62,16 @@ minecraft {
 sourceSets.main.resources { srcDir 'src/generated/resources' }
 
 repositories {
-    repositories {
-        maven {
-            name = 'Legions Maven'
-            url = 'https://maven.legionmodding.com/repository/legion-modding'
-        }
+    maven {
+        name = 'Legions Maven'
+        url = 'https://maven.legionmodding.com/repository/legion-modding'
     }
 }
 
 dependencies {
     minecraft 'net.minecraftforge:forge:1.16.5-36.2.23'
 
-    implementation fg.deobf("com.legionmodding.yalm:yalm-forge:0.0.8")
+    implementation fg.deobf("com.legionmodding.yalm:yalm-forge:0.1.0")
 }
 
 jar {
