@@ -15,6 +15,7 @@ public class TileEntityRegistry
 
     public static final RegistryObject<TileEntityType<TileEntityBottler>> BOTTLER = TILE_ENTITIES.register("bottler", () -> TileEntityType.Builder.of(TileEntityBottler::new, BlockRegistry.BOTTLER.get()).build(null));
     public static final RegistryObject<TileEntityType<TileEntityDrain>> DRAIN = TILE_ENTITIES.register("drain", () -> TileEntityType.Builder.of(TileEntityDrain::new, BlockRegistry.DRAIN.get()).build(null));
+    public static final RegistryObject<TileEntityType<TileEntityHealer>> HEALER = TILE_ENTITIES.register("healer", () -> TileEntityType.Builder.of(TileEntityHealer::new, BlockRegistry.HEALER.get()).build(null));
 
     public static void registerTileEntities()
     {

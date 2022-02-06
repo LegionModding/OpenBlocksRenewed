@@ -23,6 +23,7 @@ public class BlockRegistry
     public static final RegistryObject<Block> DRAIN = BLOCKS.register("drain", BlockDrain::new);
     public static final RegistryObject<Block> GRAY_ELEVATOR = BLOCKS.register("gray_elevator", () -> BlockElevator.create(Material.STONE, ColorMeta.GRAY));
     public static final RegistryObject<Block> GREEN_ELEVATOR = BLOCKS.register("green_elevator", () -> BlockElevator.create(Material.STONE, ColorMeta.GREEN));
+    public static final RegistryObject<Block> HEALER = BLOCKS.register("healer", BlockHealer::new);
     public static final RegistryObject<Block> LIGHT_BLUE_ELEVATOR = BLOCKS.register("light_blue_elevator", () -> BlockElevator.create(Material.STONE, ColorMeta.LIGHT_BLUE));
     public static final RegistryObject<Block> LIGHT_GRAY_ELEVATOR = BLOCKS.register("light_gray_elevator", () -> BlockElevator.create(Material.STONE, ColorMeta.LIGHT_GRAY));
     public static final RegistryObject<Block> LIME_ELEVATOR = BLOCKS.register("lime_elevator", () -> BlockElevator.create(Material.STONE, ColorMeta.LIME));
