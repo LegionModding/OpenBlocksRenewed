@@ -1,7 +1,7 @@
 {
   "textures": {
-    "all": "openblocksrenewed:blocks/drain",
-    "particle": "openblocksrenewed:blocks/drain"
+    "all": "openblocksrenewed:block/drain",
+    "particle": "openblocksrenewed:block/drain"
   },
   "elements": [
     {

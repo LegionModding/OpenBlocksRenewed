@@ -9,7 +9,7 @@ buildscript {
 }
 apply plugin: 'net.minecraftforge.gradle'
 
-version = 'FORGE-0.1.3'
+version = 'FORGE-0.1.4'
 group = 'com.legionmodding.openblocksrenewed'
 archivesBaseName = 'OpenBlocksRenewed'
 
