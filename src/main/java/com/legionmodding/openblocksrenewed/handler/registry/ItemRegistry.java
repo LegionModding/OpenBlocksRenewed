@@ -3,6 +3,7 @@ package com.legionmodding.openblocksrenewed.handler.registry;
 import com.legionmodding.openblocksrenewed.util.Reference;
 
 import net.minecraft.item.BlockItem;
+import net.minecraft.item.BucketItem;
 import net.minecraft.item.Item;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
@@ -30,6 +31,7 @@ public class ItemRegistry
     private static final RegistryObject<Item> PURPLE_ELEVATOR = ITEMS.register("purple_elevator", () -> new BlockItem(BlockRegistry.PURPLE_ELEVATOR.get(), new Item.Properties().tab(Reference.CREATIVE_TAB_BLOCKS)));
     private static final RegistryObject<Item> RED_ELEVATOR = ITEMS.register("red_elevator", () -> new BlockItem(BlockRegistry.RED_ELEVATOR.get(), new Item.Properties().tab(Reference.CREATIVE_TAB_BLOCKS)));
     private static final RegistryObject<Item> WHITE_ELEVATOR = ITEMS.register("white_elevator", () -> new BlockItem(BlockRegistry.WHITE_ELEVATOR.get(),new Item.Properties().tab(Reference.CREATIVE_TAB_BLOCKS)));
+    public static final RegistryObject<Item> XP_BUCKET = ITEMS.register("xp_bucket", () -> new BucketItem(() -> FluidRegistry.XP_FLUID.get(), new Item.Properties().tab(Reference.CREATIVE_TAB_ITEMS).stacksTo(1)));
     private static final RegistryObject<Item> YELLOW_ELEVATOR = ITEMS.register("yellow_elevator", () -> new BlockItem(BlockRegistry.YELLOW_ELEVATOR.get(),new Item.Properties().tab(Reference.CREATIVE_TAB_BLOCKS)));
 
     public static void registerItems()
