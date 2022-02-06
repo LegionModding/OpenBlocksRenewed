@@ -20,6 +20,7 @@ public class ItemRegistry
     private static final RegistryObject<Item> BOTTLER = ITEMS.register("bottler", () -> new BlockItem(BlockRegistry.BOTTLER.get(), new Item.Properties().tab(Reference.CREATIVE_TAB_BLOCKS)));
     private static final RegistryObject<Item> BROWN_ELEVATOR = ITEMS.register("brown_elevator", () -> new BlockItem(BlockRegistry.BROWN_ELEVATOR.get(), new Item.Properties().tab(Reference.CREATIVE_TAB_BLOCKS)));
     private static final RegistryObject<Item> CYAN_ELEVATOR = ITEMS.register("cyan_elevator", () -> new BlockItem(BlockRegistry.CYAN_ELEVATOR.get(), new Item.Properties().tab(Reference.CREATIVE_TAB_BLOCKS)));
+    private static final RegistryObject<Item> DRAIN = ITEMS.register("drain", () -> new BlockItem(BlockRegistry.DRAIN.get(), new Item.Properties().tab(Reference.CREATIVE_TAB_BLOCKS)));
     private static final RegistryObject<Item> GRAY_ELEVATOR = ITEMS.register("gray_elevator", () -> new BlockItem(BlockRegistry.GRAY_ELEVATOR.get(), new Item.Properties().tab(Reference.CREATIVE_TAB_BLOCKS)));
     private static final RegistryObject<Item> GREEN_ELEVATOR = ITEMS.register("green_elevator", () -> new BlockItem(BlockRegistry.GREEN_ELEVATOR.get(), new Item.Properties().tab(Reference.CREATIVE_TAB_BLOCKS)));
     private static final RegistryObject<Item> LIGHT_BLUE_ELEVATOR = ITEMS.register("light_blue_elevator", () -> new BlockItem(BlockRegistry.LIGHT_BLUE_ELEVATOR.get(), new Item.Properties().tab(Reference.CREATIVE_TAB_BLOCKS)));
