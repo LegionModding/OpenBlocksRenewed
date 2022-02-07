@@ -1,5 +1,6 @@
 package com.legionmodding.openblocksrenewed.handler.registry;
 
+import com.legionmodding.openblocksrenewed.item.ItemSpongeStick;
 import com.legionmodding.openblocksrenewed.util.Reference;
 
 import net.minecraft.item.BlockItem;
@@ -32,6 +33,7 @@ public class ItemRegistry
     private static final RegistryObject<Item> PINK_ELEVATOR = ITEMS.register("pink_elevator", () -> new BlockItem(BlockRegistry.PINK_ELEVATOR.get(), new Item.Properties().tab(Reference.CREATIVE_TAB_BLOCKS)));
     private static final RegistryObject<Item> PURPLE_ELEVATOR = ITEMS.register("purple_elevator", () -> new BlockItem(BlockRegistry.PURPLE_ELEVATOR.get(), new Item.Properties().tab(Reference.CREATIVE_TAB_BLOCKS)));
     private static final RegistryObject<Item> RED_ELEVATOR = ITEMS.register("red_elevator", () -> new BlockItem(BlockRegistry.RED_ELEVATOR.get(), new Item.Properties().tab(Reference.CREATIVE_TAB_BLOCKS)));
+    private static final RegistryObject<Item> SPONGE_ON_A_STICK= ITEMS.register("sponge_on_a_stick", ItemSpongeStick::new);
     private static final RegistryObject<Item> WHITE_ELEVATOR = ITEMS.register("white_elevator", () -> new BlockItem(BlockRegistry.WHITE_ELEVATOR.get(),new Item.Properties().tab(Reference.CREATIVE_TAB_BLOCKS)));
     public static final RegistryObject<Item> XP_BUCKET = ITEMS.register("xp_bucket", () -> new BucketItem(() -> FluidRegistry.XP_FLUID.get(), new Item.Properties().tab(Reference.CREATIVE_TAB_ITEMS).stacksTo(1)));
     private static final RegistryObject<Item> YELLOW_ELEVATOR = ITEMS.register("yellow_elevator", () -> new BlockItem(BlockRegistry.YELLOW_ELEVATOR.get(),new Item.Properties().tab(Reference.CREATIVE_TAB_BLOCKS)));

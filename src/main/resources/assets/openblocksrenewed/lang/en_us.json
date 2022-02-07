@@ -19,5 +19,6 @@
   "block.openblocksrenewed.red_elevator": "Red Elevator",
   "block.openblocksrenewed.white_elevator": "White Elevator",
   "fluid.openblocksrenewed.xp_fluid" : "Liquid XP",
+  "item.openblocksrenewed.sponge_on_a_stack" : "Sponge on a stick",
   "item.openblocksrenewed.xp_bucket" : "Liquid XP Bucket"
 }
